@@ -15,5 +15,7 @@ namespace Chat_Networks360.Areas.HelpPage.Models
         }
 
         public DbSet<Conversation> Conversation { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
     }
 }
